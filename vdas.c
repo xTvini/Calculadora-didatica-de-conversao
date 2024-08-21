@@ -30,5 +30,17 @@ int main(void){
             for(int i=31;i>=0;i--){
                 printf("%d", hexal[i]);
             }
+        case 3:
+            for(int i=0;i<32;i++){
+                if(num>0){
+                    octal[i]=num%8;
+                    num = num/8;
+                }else{
+                    octal[i]=0;
+                }
+            }
+            for(int i=31;i>=0;i--){
+                printf("%d", octal[i]);
+            }
     }
 }
