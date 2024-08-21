@@ -18,7 +18,17 @@ int main(void){
                 printf("%d", binario[i]);
             }
             break;
-        default:
-            printf("Inválido\n");
+        case 2:
+            for(int i=0;i<32;i++){
+                if(num>0){
+                    hexal[i] = num%16;
+                    num = num/16;
+                }else{
+                    hexal[i]=0;
+                }
+            }    
+            for(int i=31;i>=0;i--){
+                printf("%d", hexal[i]);
+            }
     }
 }
