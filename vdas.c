@@ -1,7 +1,7 @@
 /*
 Nome: Vinicius Diniz Amorim Simões;
 data de início: 21/08/24 12:10;
-data de termino:   ;
+data de termino: 25/04/2024 17:57;
 Email: vdas@cesar.school;
 
 Mudanças:
@@ -12,6 +12,7 @@ Mudanças:
 5- 24/08/24 18:26 - Correção do codigo;
 6- 25/08/24 12:15 - Complemento a 2;
 7- 25/08/24 17:47 - decimal pra float e pra double;
+8- 25/08/24 17:57 - Read.me;
 
 Instruções: 
 
@@ -24,7 +25,7 @@ d) código BCD✅ caso 4
 
 2 - de base 10  para base com sinal com 16 bits, (complemento a 2)✅ caso 5
 3 - converter real em decimal para float e double, mostrando os respectivos bits de sinal , expoente, expoente com viés e fração ✅
-
+                                    ⮩caso 6✅  ⮩caso 7✅
 OBS: deve ser entregue o executável com as iniciais do email e link do git com código.  
 A cada questão implementada deve ser feito um commit no git . 
 O codigo fonte deve conter um cabeçalho dos dados do autor e  revisões/ atualizações com datas e hora
